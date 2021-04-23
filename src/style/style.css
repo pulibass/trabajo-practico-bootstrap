@@ -1,0 +1,111 @@
+
+.contenedor-img{
+    height: 400px;
+}
+.section{
+    margin: 5px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside{
+    margin: 2px auto;
+    margin-bottom: 15px;
+    }
+
+
+
+
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    justify-content: center;
+    margin-top: 100px;
+    position: fixed;
+}
+
+.chat{
+    justify-content: center;
+    margin-top: 1000px;
+    position: fixed;
+    
+    
+}
+
+.logo-whatsapp{
+    height: 50px;
+    width: 50px;
+}
+
+.img-icono{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.ver-mas{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+}
+
+.contenedor-section{
+    margin: auto;
+   display:flex;
+   flex-direction: column;
+    
+
+}
+.contenedor-aside{
+    margin: auto;
+}
+.main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenedor-principal{
+    margin: auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 60px;
+    background-color: rgb(51, 54, 51);
+}
+.CopyRigth{
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+    text-align: center;
+    color: white;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin:0px;
+    text-align: center;
+    color: white;
+}
+
+.iconos-redes{
+    display: flex;
+    justify-content:center;
+    margin:2px auto;
+}
+
+.iconos-redes a{
+    margin: 10px;
+}
