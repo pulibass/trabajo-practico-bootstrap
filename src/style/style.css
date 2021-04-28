@@ -78,34 +78,91 @@
 }
 
 .footer{
+    position: sticky;
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 60px;
+    height: 220px;
     background-color: rgb(51, 54, 51);
 }
-.CopyRigth{
+.copyRigth{
     display: flex;
     justify-content: center;
-    margin-top:15px;
     text-align: center;
     color: white;
+    margin-top: 5px;
+    
+}
+
+h6{
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 .contacto{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin:0px;
+    margin:25px auto;
     text-align: center;
     color: white;
+    text-transform: uppercase;
 }
 
 .iconos-redes{
     display: flex;
     justify-content:center;
-    margin:2px auto;
+    margin:auto;
 }
 
 .iconos-redes a{
-    margin: 10px;
+    margin: 5px;
+}
+
+@media screen and (min-width: 768px){
+    .footer{
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        height: 75px;
+        background-color: rgb(51, 54, 51);
+    }
+    .copyRigth{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+        margin: auto;
+        width: 27.5%;
+        
+        
+    }
+    
+    h6{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    .contacto{
+        width: 27.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin:5px auto;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .iconos-redes{
+        width: 27.5%;
+        display: flex;
+        justify-content:center;
+        margin:auto;
+    }
+    
+    .iconos-redes a{
+        margin: 5px;
+    }
 }
